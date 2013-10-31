@@ -39,6 +39,7 @@ _gaq.push(['_trackEvent', 'Viewport', 'Aspect Ratio X 100', width + 'x' + height
 Discuss with PMs:
 
 * Custom statuses. 'Blocked', 'On Staging', 'Deployed'?
+* Adding all FEDs + Code Review task to project
 * Milestone definition. Suggestions:
   * Setup
   * Browser QA
