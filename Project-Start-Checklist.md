@@ -2,10 +2,12 @@
 
 * Collect window size data if possible. Code:
 
-      _gaq.push(['_trackEvent', 'Viewport', 'Size',               width + 'x' + height, 0, true]);
-      _gaq.push(['_trackEvent', 'Viewport', 'Width',              width + 'x' + height, width, true]);
-      _gaq.push(['_trackEvent', 'Viewport', 'Height',             width + 'x' + height, height, true]);
-      _gaq.push(['_trackEvent', 'Viewport', 'Aspect Ratio X 100', width + 'x' + height, Math.round((width / height) * 100), true]);
+```
+_gaq.push(['_trackEvent', 'Viewport', 'Size',               width + 'x' + height, 0, true]);
+_gaq.push(['_trackEvent', 'Viewport', 'Width',              width + 'x' + height, width, true]);
+_gaq.push(['_trackEvent', 'Viewport', 'Height',             width + 'x' + height, height, true]);
+_gaq.push(['_trackEvent', 'Viewport', 'Aspect Ratio X 100', width + 'x' + height, Math.round((width / height) * 100), true]);
+```
 
 * Establish window size targets (suggested):
   * Average size
