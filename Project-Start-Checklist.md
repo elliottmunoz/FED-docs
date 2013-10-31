@@ -50,6 +50,14 @@ Discuss with PMs:
   * Pre-launch
   * Post-launch
 * QA process
+  * Screencasting
+  * Ticket format (expected, observed)
+* Estimation strategy:
+  * When to estimate
+  * Breaking up tickets into smaller features
+  * Fibonacci hours
+* Ticket process:
+  * When to close v. reopen
 * Browser testing and who's responsible for what
 * Project updates:
   * Format of daily updates from FEDs
@@ -71,7 +79,7 @@ Discuss with devs:
 
 * Convenience:
   * Is there a way to develop 'flat' pages in the app, using site assets?
-  * Are there special restrictions or domain name issues that make the app difficult to test on a local vertial machine?
+  * Are there special restrictions or domain name issues that make the app difficult to test on a local virtual machine?
 * View development:
   * Are devs developing views ahead of FEDs?
   * Are devs developing views ahead of final UX/design?
