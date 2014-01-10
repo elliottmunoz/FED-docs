@@ -249,15 +249,9 @@ Use @extend, not mixins, to repeat large blocks of style in a number of rules.
 
 # JavaScript
 
-### Framework
-We primarily develop new applications in jQuery; however, the JavaScript framework used is chosen on a per-project basis and is up to the discretion of the front-end development team for that project.
+### Project Organization
 
-The preferred loading method for jQuery is to load from the google CDN, then fallback with a local copy. Example:
-
-```
-<script src=’//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js’></script>
-<script>window.jQuery || document.write(‘<script src=\’js/vendor/jquery-1.7.2.min.js\’><\/script>’)</script>
-```
+We strongly using the AMD pattern and something like [requirejs](http://requirejs.org/) to manage JavaScript code.
 
 <hr>
 
@@ -351,11 +345,6 @@ Boolean variable names should try be worded as a present-tense statement. This t
 All third-party code should be clearly segregated from code written in-house. For projects where many JS assets are being used, third-party code should be relegated to its own “vendor” directory within the main javascript folder.
 
 Don’t modify third-party scripts. If you have to, fork it, and use your fork. If you can’t do that, move it out of /vendor/ and very clearly comment to describe what you changed. Don’t remove attribution from third-party scripts.
-
-<hr>
-
-### Testing
-Testing is difficult and unproductive on DOM-heavy JS. Reserve unit/int testing for JS modules with a lot of logic.
 
 <hr>
 

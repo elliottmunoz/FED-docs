@@ -311,7 +311,7 @@ p {
 <hr>
 
 ### Sass Syntax
-Use Sass, Use the SCSS syntax.
+Follow the syntax of the project you're working on, and be consistent. You can work in either SCSS or 'indented' syntax.
 
 <hr>
 
@@ -348,8 +348,14 @@ NOT EVEN CLOSE
 ```
 
 <hr>
-
+
 # JavaScript
+
+### Compile-to languages
+
+The [CoffeeScript](http://coffeescript.org/) compile-to language is used on some projects. This decision is up to the project team - be consistent when working on an existing project.
+
+<hr>
 
 ### Var and method names
 All JavaScript var names are camelCase. The only exception is any var that's used as a class/constructor (which are TitleCased).
