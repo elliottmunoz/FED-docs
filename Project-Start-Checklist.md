@@ -1,6 +1,12 @@
+The point of this thing is to help FEDs (and others) remember all the best practices to go over when beginning a new project.
+
+Nothing in this document is mandatory and nothing is final, it's simply a toolkit to help you kick projects off the way you want to.
+
+<hr>
+
 # Targets
 
-* Collect window size data if possible. Code:
+* Collect window size data on the existing site if possible. Code:
 
 ```
 _gaq.push(['_trackEvent', 'Viewport', 'Size',               width + 'x' + height, 0, true]);
