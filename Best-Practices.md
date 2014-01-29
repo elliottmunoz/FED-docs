@@ -1,4 +1,3 @@
-
 These are the recommended best practices for Viget front-end development.
 
 - [General](#general)
@@ -12,6 +11,11 @@ These are the recommended best practices for Viget front-end development.
 
 ### Readability vs Compression
 Prefer readability over file-size concerns when it comes to writing and maintaining code. Compression can be automated, clear code can’t.
+
+<hr>
+
+### No merge commits
+See [this blog post](http://viget.com/extend/only-you-can-prevent-git-merge-commits). Always rebase your feature branch before merging it into another.
 
 <hr>
 
